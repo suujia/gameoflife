@@ -2,9 +2,10 @@
   "name": "gameoflife",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://suujia.github.io/gameoflife",
+  "homepage": "https://suujia.github.io/gameoflife/",
   "dependencies": {
     "react": "^16.5.1",
+    "react-collapsible": "^2.3.1",
     "react-dom": "^16.5.1",
     "react-scripts": "1.1.5"
   },

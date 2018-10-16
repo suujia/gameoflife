@@ -12,19 +12,15 @@ class App extends Component {
           <h1 className="App-title">Conway's Game of Life</h1>
         </header>
         <p className="App-intro">
-          This is a simulation.
+          Configure the board and observe how it evolves! 
         </p>
         <Life />
 
-      {/* <DropdownButton>
-        <MenuItem eventKey="1">Action</MenuItem>
-        <MenuItem eventKey="2">Another action</MenuItem>
-        <MenuItem eventKey="3" active>
-          Active Item
-        </MenuItem>
-        <MenuItem divider />
-        <MenuItem eventKey="4">Separated link</MenuItem>
-      </DropdownButton> */}
+        <h2 className="App-title">Rules</h2>
+        <p>1. Living cell with less than 2 live neighbors dies, as if by underpopulation.</p>
+        <p>2. Living cell with 2 or 3 live neighbors lives on to the next generation.</p>
+        <p>3. Living cell with more than 3 live neighbors dies, as if by overpopulation.</p>
+        <p>4. Dead cell with exactly 3 live neighbors becomes a live cell, as if by reproduction.</p>
       </div>
     );
   }
